@@ -1,0 +1,65 @@
+/* ShopAt Container */
+.shop_at {
+  text-align: center;
+  padding: 50px;
+}
+
+/* ShopAt Title */
+.shop_at_title {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Greenish Text */
+.greenish {
+  color: #42f8c3;
+}
+
+/* ShopAt Text */
+.shop_at_text {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Guides Collection */
+.guides_collection {
+  display: flex;
+  flex-direction: column; /* Change to column direction */
+  align-items: center;
+  text-decoration: none;
+
+}
+
+/* Collection Text */
+.collection_text {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #42f8c3;
+  margin-bottom: 10px; /* Add margin to separate arrow */
+}
+
+/* Arrow Icon */
+.arrow {
+  width: 15px;
+  height: 15px;
+  border-left: 3px solid #42f8c3;
+  border-bottom: 3px solid #42f8c3;
+  transform: rotate(-45deg);
+}
+
+.main{
+  min-height: 100vh;
+  min-width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23091910' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23133220' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%231c4c31' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23266541' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%232F7E51' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}

@@ -1,0 +1,69 @@
+/* Reviews Container */
+.reviews {
+    display: flex;
+    flex-direction: row; /* Changed flex-direction to row */
+    align-items: center;
+    justify-content: space-around; /* Added to create spacing between reviews */
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .reviews_title {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-top: 5vh;
+    font-family: 'Josefin Sans', sans-serif;
+    align-self: center;
+  }
+  
+  /* Individual Review */
+  .review {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  /* Review Stars */
+  .review_stars {
+    color: #42f8c3;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Review Text */
+  .review_text {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  /* Review Name */
+  .review_name {
+    color: #42f8c3;
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+  /* Main Container */
+  .main {
+    min-height: 100vh;
+    min-width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23091910' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23133220' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%231c4c31' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23266541' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%232F7E51' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+  

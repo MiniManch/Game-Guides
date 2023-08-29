@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Press+Start+2P&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif ;
+}
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Press Start 2P', cursive; */
+#root{
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.App{
+    min-height: 100vh;
+    min-width: 100vw;
+}

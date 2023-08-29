@@ -1,0 +1,94 @@
+/* ProfilePage.module.css */
+
+/* Background SVG */
+.main {
+    position:absolute;
+    top:0;
+    min-width:100vw;
+    min-height:100vh;
+    background: green;
+    background-size: cover;
+    margin: 0;
+  }
+  
+  .profileContainer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin:auto;
+    margin-top: 20vh;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .profileHeader {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #42f8c3;
+  }
+  
+  .changeButton {
+    background-color: #42f8c3;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .confirmationRequest {
+    background-color: #ffedbd;
+    color: #d83c3c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .closeButton {
+    background-color: transparent;
+    border: none;
+    color: #d83c3c;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .guides {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .guides p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .wishlistButton {
+    background-color: #42f8c3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: #d83c3c;
+    text-align: center;
+  }
+  
+  .loading {
+    text-align: center;
+  }
+  

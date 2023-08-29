@@ -1,0 +1,77 @@
+.navbar {
+  top: 0 !important;
+  background-color: transparent !important;
+  display: flex;
+  width: 100vw;
+  padding-bottom: 0;
+  transition: background-color 0.7s !important;
+}
+
+.navbar_links {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* Rest of your existing CSS */
+
+
+.navbar_link {
+  position: relative;
+  font-family: 'Press Start 2P', cursive !important;
+  margin-right: 20px !important;
+  transition: color 1s;
+}
+
+.navbar_link > a {
+  color:white;
+}
+.navbar_link:last-child {
+  margin-right: 0;
+}
+
+/* Pixelated border effect on hover */
+.navbar_link::before,
+.navbar_link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -7px; /* Adjust the position of the border */
+  background-color: black; /* Color of the pixelated border */
+  transition: width 0.7s;
+  transform-origin: center;
+}
+
+.navbar_link::before {
+  left: 50%;
+  transform: scaleX(0);
+}
+
+.navbar_link::after {
+  right: 50%;
+  transform: scaleX(0);
+}
+
+.navbar_link:hover::before,
+.navbar_link:hover::after {
+  width: 50%;
+  transform: scaleX(1);
+}
+
+.animated {
+  animation-duration: 1s;
+}
+
+.sticky {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  backdrop-filter: blur(10px);
+}
+
+.logoImage{
+  width:5vw;
+}
+
+.logoContainer{
+  position:relative;
+}

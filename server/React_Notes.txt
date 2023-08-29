@@ -1,1 +1,0 @@
-npx create-react-app '/path/to/folder' - Will create new React app on designated folder

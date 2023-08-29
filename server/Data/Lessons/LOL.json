@@ -1,0 +1,53 @@
+[
+    {
+      "subjects": [
+        "What is League of Legends",
+        "How to install",
+        "Create account",
+        "Choose server",
+        "Navigate the interface and customize settings",
+        "Choose champion and role",
+        "Walkthrough the tutorial",
+        "Understand game mode, maps, objectives, and rules",
+        "Use abilities, items, summoner spells, and runes",
+        "Teamwork",
+        "Improve skills"
+      ],
+      "video": "https://www.youtube.com/watch?v=kjBo6jNKfPw&ab_channel=Mr.FruitPlays",
+      "picture": "img.youtube.com/vi/kjBo6jNKfPw/maxresdefault.jpg",
+      "difficulty": "Beginner",
+      "students": [],
+      "comments": []
+    },
+    {
+      "subjects": [
+        "Explains how to use attack move and orb walking to improve your accuracy and efficiency"
+      ],
+      "video": "https://www.youtube.com/watch?v=-oyxOgtT33U",
+      "picture": "img.youtube.com/vi/-oyxOgtT33U/maxresdefault.jpg",
+      "difficulty": "Intermediate-1",
+      "students": [],
+      "comments": []
+    },
+    {
+      "subjects": [
+        "Explains how to predict and land skill shots with different types of champions and abilities"
+      ],
+      "video": "https://www.youtube.com/watch?v=itWdWYkUQ4o&ab_channel=SkillCappedChallengerLoLGuides",
+      "picture": "img.youtube.com/vi/itWdWYkUQ4o/maxresdefault.jpg",
+      "difficulty": "Intermediate-2",
+      "students": [],
+      "comments": []
+    },
+    {
+      "subjects": [
+        "Pro settings"
+      ],
+      "video": "https://www.youtube.com/watch?v=4hoXAFUHlEI&ab_channel=Nemesis",
+      "picture": "img.youtube.com/vi/4hoXAFUHlEI/maxresdefault.jpg",
+      "difficulty": "Advanced",
+      "students": [],
+      "comments": []
+    }
+]
+  

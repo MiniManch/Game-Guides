@@ -1,0 +1,52 @@
+[
+    {
+      "subjects": [
+        "Choose game mode and platform",
+        "Customize character and settings",
+        "Land quickly and safely",
+        "Loot",
+        "Use different weapons, items, and consumables",
+        "Build basic structures and edit them",
+        "Move around and avoid the storm",
+        "Fight enemies and survive in different common situations"
+      ],
+      "video": "https://www.youtube.com/watch?v=Psp0UL3PZcw",
+      "picture": "img.youtube.com/vi/Psp0UL3PZcw/maxresdefault.jpg",
+      "difficulty": "Beginner",
+      "students": [],
+      "comments": []
+    },
+    {
+      "subjects": [
+        "Faster 90s",
+        "Elevated cone jumps",
+        "High ground retakes etc"
+      ],
+      "video": "https://www.youtube.com/watch?v=zzGDBNE_1LA",
+      "picture": "img.youtube.com/vi/zzGDBNE_1LA/maxresdefault.jpg",
+      "difficulty": "Intermediate-1",
+      "students": [],
+      "comments": []
+    },
+    {
+      "subjects": [
+        "Advanced strategies"
+      ],
+      "video": "https://www.youtube.com/watch?v=AugjgZlPltc",
+      "picture": "img.youtube.com/vi/AugjgZlPltc/maxresdefault.jpg",
+      "difficulty": "Intermediate-2",
+      "students": [],
+      "comments": []
+    },
+    {
+      "subjects": [
+        "Advanced and pro tips"
+      ],
+      "video": "https://www.youtube.com/watch?v=EaWVCNvf33U",
+      "picture": "img.youtube.com/vi/EaWVCNvf33U/maxresdefault.jpg",
+      "difficulty": "Advanced",
+      "students": [],
+      "comments": []
+    }
+]
+  

@@ -1,0 +1,57 @@
+[
+    {
+        "subjects": [
+            "Customize settings",
+            "What is Rocket League",
+            "Customize car",
+            "How to use the various cameras",
+            "How to hit the ball",
+            "How to increase accuracy",
+            "How to rotate"
+        ],
+        "video": "https://www.youtube.com/watch?v=pk8_EjgMvQE&ab_channel=Thanovic",
+        "picture": "https://img.youtube.com/vi/pk8_EjgMvQE/maxresdefault.jpg",
+        "difficulty": "Beginner",
+        "students": [],
+        "comments": []
+    },
+    {
+        "subjects": [
+            "Improve rebound and backboard shots",
+            "How to half-flip",
+            "Improve recovery"
+        ],
+        "video": "https://www.youtube.com/watch?v=pXfOdxwUGOo&ab_channel=Hoodyhooo",
+        "picture": "https://img.youtube.com/vi/pXfOdxwUGOo/maxresdefault.jpg",
+        "difficulty": "Intermediate-1",
+        "students": [],
+        "comments": []
+    },
+    {
+        "subjects": [
+            "How to practice",
+            "Add air roll buttons",
+            "Practice aerials and training packs",
+            "Perform different styles of jumping"
+        ],
+        "video": "https://www.youtube.com/watch?v=sfHxuxhgzw0&ab_channel=RocketStory",
+        "picture": "https://img.youtube.com/vi/sfHxuxhgzw0/maxresdefault.jpg",
+        "difficulty": "Intermediate-2",
+        "students": [],
+        "comments": []
+    },
+    {
+        "subjects": [
+            "Dribbling",
+            "Airdribbling",
+            "Custom maps",
+            "Flicks",
+            "Consistency and creativity"
+        ],
+        "video": "https://www.youtube.com/watch?v=HrVSXktUj-I&ab_channel=slyk",
+        "picture": "https://img.youtube.com/vi/HrVSXktUj-I/maxresdefault.jpg",
+        "difficulty": "Advanced",
+        "students": [],
+        "comments": []
+    }
+]

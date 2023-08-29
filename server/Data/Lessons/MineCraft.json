@@ -1,0 +1,51 @@
+[
+    {
+      "subjects": [
+        "How to play Minecraft",
+        "Get wood",
+        "Craft tools & weapons",
+        "Make a crafting table and furnace",
+        "Cook food",
+        "Protect yourself against Mobs"
+      ],
+      "video": "https://www.youtube.com/watch?v=BEH_fMgRNrc",
+      "picture": "img.youtube.com/vi/BEH_fMgRNrc/maxresdefault.jpg",
+      "difficulty": "Beginner",
+      "students": [],
+      "comments": []
+    },
+    {
+      "subjects": [
+        "Make your first shelter",
+        "Make storage",
+        "Build a bed to set your spawn",
+        "Beginner farming for food"
+      ],
+      "video": "https://www.youtube.com/watch?v=RbLWKUPMHZ0",
+      "picture": "img.youtube.com/vi/RbLWKUPMHZ0/maxresdefault.jpg",
+      "difficulty": "Beginner-2",
+      "students": [],
+      "comments": []
+    },
+    {
+      "subjects": [
+        "10 Tips to become pro"
+      ],
+      "video": "https://www.youtube.com/watch?v=-BSh_UKZi6M",
+      "picture": "img.youtube.com/vi/-BSh_UKZi6M/maxresdefault.jpg",
+      "difficulty": "Intermediate-1",
+      "students": [],
+      "comments": []
+    },
+    {
+      "subjects": [
+        "Explains how to do various skills such as speed bridging, water bucket clutching, TNT jumping, and more"
+      ],
+      "video": "https://www.youtube.com/watch?v=bCCD-4KN4xE",
+      "picture": "img.youtube.com/vi/bCCD-4KN4xE/maxresdefault.jpg",
+      "difficulty": "Advanced",
+      "students": [],
+      "comments": []
+    }
+]
+  

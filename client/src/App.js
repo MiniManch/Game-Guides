@@ -6,6 +6,8 @@ import Navbar from './Components/General/Navbar/Navbar';
 import HomePage from './Components/Homepage/HomePage';
 import Login from './Components/Users/Login';
 import ProfilePage from './Components/Users/ProfilePage';
+import AllGuides from './Components/Guides/AllGuides'; 
+import GuidePreview from './Components/Guides/GuidePreview';
 
 function App() {
     return (
@@ -18,6 +20,8 @@ function App() {
                     <Route path="/user/new" element={<NewUserForm />} /> 
                     <Route path="/user/login" element={<Login />} />
                     <Route path="/user/profile" element={<ProfilePage />} />
+                    <Route path="/guides/all" element={<AllGuides />} />
+                    <Route path="/guides/preview/:guideName" element={<GuidePreview />} />
                 </Routes>
             </div>
         </Router>

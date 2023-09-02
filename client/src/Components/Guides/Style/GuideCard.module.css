@@ -1,0 +1,57 @@
+@import 'animate.css/animate.min.css';
+
+.guide_card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  transition: transform 0.3s, background-color 0.3s;
+  cursor: pointer;
+
+}
+
+.guide_image {
+  max-width: 100%;
+  height: auto;
+  min-height: 20vh;
+}
+
+.guide_title {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.guide_instructor {
+    position:relative;
+    bottom:0;
+  font-size: 1rem;
+}
+
+.link_elem{
+  color:black;
+  text-decoration: none;
+}
+
+.guide_card:hover {
+  animation: fadeInUp 0.5s; /* Apply fadeInUp animation on hover */
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.preview_button {
+  display: inline-block;
+  background-color: black; /* Green background color */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.preview_button:hover {
+  background-color: #42E3AD; /* Slightly darker green on hover */
+}

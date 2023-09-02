@@ -159,17 +159,55 @@ router.delete('/deleteAll', async (req, res) => {
   }
 });
 
-// Route to send confirmation email
-router.post('/send-confirmation-email', requireAuth, async (req, res) => {
+router.post('/update-image/:userId', upload.single('file'), async (req, res) => {
   try {
-    const { username } = req.user; // Retrieve the username from the authenticated user
-
-    const user = await User.findOne({ username });
+    const userId = req.params.userId;
+    const user = await User.findById(userId);
 
     if (!user) {
       return res.status(404).json({ error: 'User not found' });
     }
 
+    if (req.file) {
+      const uploadedFile = req.file;
+
+      // Delete previous image from Cloudinary if it exists
+      if (user.profileImage) {
+        const publicId = user.profileImage.replace(/\.[^.]+$/, ''); // Get public ID
+        await cloudinary.uploader.destroy(publicId);
+      }
+
+      // Upload new image to Cloudinary
+      const result = await cloudinary.uploader.upload(uploadedFile.path, {
+        folder: '/Game-Guides/User-Images',
+        transformation: [{ width: 500, height: 500, crop: 'limit' }],
+      });
+
+      user.profileImage = result.public_id;
+      await user.save();
+
+      return res.status(200).json({ message: 'User image updated successfully' });
+    } else {
+      return res.status(400).json({ error: 'No image file provided' });
+    }
+  } catch (error) {
+    console.error('Error updating user image:', error);
+    res.status(500).json({ error: 'An error occurred while updating user image' });
+  }
+});
+
+// Route to send confirmation email
+router.post('/send-confirmation-email', requireAuth, async (req, res) => {
+  try {
+    const userId = req.user.userId; // Retrieve the username from the authenticated user
+
+    const user = await User.findOne({_id: userId });
+
+    if (!user) {
+      return res.status(404).json({ error: 'User not found' });
+    }
+
+    let username = user.username;
     // Generate a unique token
     const token = jwt.sign({ username }, process.env.EMAIL_CONFIRMATION_SECRET, {
       expiresIn: '10m',
@@ -188,7 +226,7 @@ router.post('/send-confirmation-email', requireAuth, async (req, res) => {
       to: user.username,
       subject: 'Confirm Your Email',
       text: `Click the link below to confirm your email: \n\n
-      https://your-app-url.com/confirm-email?token=${token}`,
+     ${process.env.SERVER_BASE_URL}user/confirm-email?token=${token}`,
     };
 
     await transporter.sendMail(mailOptions);
